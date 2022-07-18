@@ -7,6 +7,16 @@
     
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none; 
+    color:white
+}
+
+a:hover{
+    text-decoration: underline;
+    color:gray
+}
+
 body{
     color:#eee;
     display:flex;
@@ -44,6 +54,7 @@ body{
 }
 
 
+
 .proyectoGif{
     width: 50%;
 }
@@ -73,7 +84,7 @@ body{
 }
 
 .proyectoCompleto{
-    width: 80%;
+    width: 98%;
     margin: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -151,6 +162,9 @@ img{
     display: none;
 }
 
+.proyectoDescripcionLarga{
+    margin-left:100px;
+}
 
 @media all and (max-width: 1000px){
     .tituloSeccion{
@@ -192,6 +206,18 @@ img{
 }
 
 @media all and (max-width: 600px){
+    .proyectoDescripcionLarga{
+        margin-left:5px;
+    }
+    .proyectoCompletoContenido{
+        flex-direction: column;;
+    }
+    .proyectoGif{
+        width: 100%;
+    }
+    .proyectoDescripcion{
+        width: 100%;
+    }
     .tituloSeccion{
         display: unset;
         width: 98%;
