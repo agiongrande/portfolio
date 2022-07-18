@@ -83,7 +83,6 @@
 	let a=document.getElementsByName('enlace');
 	a.forEach(element => {
 		element.addEventListener('click',function (event) {
-			alert("a")
   		event.preventDefault();
   		location.href=element.getAttribute("url");
 	});
