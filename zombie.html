@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta name=viewport content="width=device-width", inicial-scale=1>
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="Portfolio">
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+<body>
+<!--Este es el header de la página-->
+<div id="header" class='header'>
+	
+</div>
+<!--Acá va el contenido de la sección principal. La imagen va a ser reemplazada por un carrusel de imágenes-->
+<div id="main" class='main'>
+	<div class='general'>
+		<div class='perfilMarco'>
+			<div class='perfilCenter'>
+				<div>
+					<img src="img/fotoPerfil.png">
+					<p class='titulo'>Alejandro Giongrande</p>
+					<p>Programador de Videojuegos</p>
+					<p>agiongrande@gmail.com</p>
+					<p class='textoSmall'>Capital Federal, Argentina</p>
+				</div>
+			</div>
+			<div class='perfilCenter'>
+				<div>
+					<p class='titulo'>¿Quién soy?</p><p class='texto'>Soy un profesional de administración y sistemas, certificado como Project Manager por el PMI. Actualmente me desempeño como gerente de proyectos de consultoría, coordinando equipos de trabajo desde hace más de una década. Durante muchos años, utilicé parte de mi tiempo libre a la programación de videojuegos, realizándolo como actividad recreativa, donde terminé encontrando mi pasión. Por ello, quiero reorientar mi carrera hacia la programación de videojuegos, para lo cual me encuentro realizando cursos y capacitándome, y donde creo además poder aportar los conocimientos y experiencia adquiridos durante estos años en el ámbito del trabajo en equipo.</p>
+				</div>
+			</div>
+		</div>
+		<div class='tituloSeccion'>
+			<p class='titulo center'>Juegos realizados</p>
+		</div>
+			<div class='proyectoCompleto'>
+				<div class='proyectoCompletoContenido'>
+					<div class='proyectoGif'>
+						<img src="img/zombie.gif">
+					</div>
+					<div class='proyectoDescripcion'>
+						<p class='titulo'>Zombie Hotel</p>
+						<p class='texto'>Juego de tercera persona realizado en Unity. Tras un apocalipsis zombie, el protagonista del videojuego debe cumplir distintas misiones dentro de un hotel donde es posible encontrarse tanto con zombies como con otros sobrevivientes.</p>
+						<p class='texto'>Desarrollado con:</p><img src="img/unity.png" class='logo'><img src="img/logoc.png" class='logo'>
+					</div>
+				</div>
+			</div>	
+	</div>
+</div>
+
+<div id="footer" class="footer">
+	<a href='https://www.linkedin.com/in/alejandro-giongrande/' target="blank"><img src="img/linkedin.png" class='logo'></a><a href='https://github.com/agiongrande' target="blank"><img src="img/github.png" class='logo'></a>
+</div>
+<script>
+	let a=document.getElementsByName('enlace');
+	a.forEach(element => {
+		element.addEventListener('click',function (event) {
+  		event.preventDefault();
+  		location.href=element.getAttribute("url");
+	});
+	});
+	
+</script>
+</body>
+</html>

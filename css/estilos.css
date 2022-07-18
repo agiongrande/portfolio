@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    color:#eee;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    font-weight:300;
+    font-size:14px;
+    margin:0 auto;
+
+}
+
+.main{
+    background-color:#000000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    height: 20px;
+    background-color: #222222;
+}
+
+
+.footer{
+    background-color: #222222;
+    text-align: center;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+}
+
+.gameDescription{
+    margin:auto;
+}
+
+
+.proyectoGif{
+    width: 50%;
+}
+
+.proyectoDescripcion{
+    width: 50%;
+}
+
+.portfolioMarco{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.portfolioProyecto{
+    width: 40%;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color:#444444;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #222222;
+}
+
+.proyectoCompleto{
+    width: 80%;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color:#444444;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #222222;
+}
+
+a:link, a:visited, a:active, a:hover {
+    text-decoration:none;
+}
+
+.portfolioProyecto:hover{
+    width: 40%;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color:#555555;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #222222;
+    background-color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.proyectoContenido{
+    margin:auto;
+    margin-top: 5px;
+    width: 95%;
+    font-size: small;
+    color:#eeeeee;
+    text-align: center;
+}
+
+.proyectoCompletoContenido{
+    margin:auto;
+    margin-top: 5px;
+    width: 95%;
+    font-size: small;
+    color:#eeeeee;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width:100%;
+    border-radius: 5px;
+    margin:auto;
+}
+
+.perfilMarco{
+    width: 20%;
+    font-size: small;
+}
+
+.perfilCenter{
+    margin:auto;
+    text-align: center;
+    background-color: #222222;
+    margin: 4px;
+    border: 1px;
+    border-color:#444444;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #222222;
+    font-size: 14px;
+    color:#eeeeee;
+}
+.tituloSeccion{
+    display: none;
+}
+
+
+@media all and (max-width: 1000px){
+    .tituloSeccion{
+        display: unset;
+        width: 98%;
+        margin: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px;
+        border-color:#444444;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: #222222;
+    }
+
+    .perfilCenter{
+        width: 50%;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .perfilMarco{
+        width: 100%;
+        font-size: small;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .portfolioMarco{
+        width: 98%;
+        flex-direction: row;
+    }
+    .portfolioProyecto{
+        width: 48%;
+    }        
+    .portfolioProyecto:hover{
+        width: 48%;
+    }
+}
+
+@media all and (max-width: 600px){
+    .tituloSeccion{
+        display: unset;
+        width: 98%;
+        margin: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px;
+        border-color:#444444;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: #222222;
+    }    
+
+    .perfilCenter{
+        width: 98%;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .perfilMarco{
+        margin: auto;
+        width: 98%;
+        font-size: small;
+        display:unset;
+    }
+
+    .portfolioMarco{
+        width: 98%;
+        flex-direction: column;
+    }
+    .portfolioProyecto{
+        width: 98%;
+    }        
+    .portfolioProyecto:hover{
+        width: 98%;
+    }
+}
+
+.logo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.titulo{
+    font-size: normal;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.texto{
+    font-size: Small;
+}
+
+.textoSmall{
+    font-size:smaller;
+}
+
+.center{
+    text-align: center;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
